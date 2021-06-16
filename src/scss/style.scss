@@ -1,0 +1,41 @@
+@import "variables";
+@import "~bootstrap";
+
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+#nav {
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+
+  a {
+    font-weight: bold;
+    color: #2c3e50;
+    margin:10px;
+    text-decoration: none;
+
+    &.router-link-exact-active {
+      color: #FFCE47;
+    }
+  }
+}
+.nav-bar{
+  height: 20px;
+  background-image: linear-gradient(to right, rgb(103,129,120), rgb(255,206,71));
+}
+.logo{
+  width: 50px;
+}
+.footer-side{
+  margin-top: 20px;
+  background-image: linear-gradient(to right, rgb(255,206,71), rgb(103,129,120));
+  padding: 30px;
+}
+
